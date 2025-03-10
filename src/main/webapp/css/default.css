@@ -1,0 +1,61 @@
+* { box-sizing: border-box; }
+.login_form {
+    position: absolute;
+    top: 100px;
+    left:50%;
+    transform:translateX(-50%);
+    width: 400px;
+    z-index: 1;
+    padding: 20px 20px;
+    background-color: #ffffff;
+    border: 1px solid #333333;
+    border-radius: 10px;
+}
+.login_form .form_title {
+    margin-top: 0px;
+    font-size: 24px;
+}
+.login_form form {
+    width: 100%;
+}
+.login_form form > div {
+    margin-bottom: 10px;
+}
+.login_form form label {
+    display: block;
+    padding: 0px 0px 10px 0px;
+    font-size: 16px;
+    text-align: left;
+}
+.login_form form input {
+    font-size: 16px;
+    width: 100%;
+    padding: 4px 4px;
+}
+.login_form form input[type="password"] {
+    letter-spacing: 5px;
+}
+.login_form form .buttons-bottom {
+    margin-top: 20px;
+}
+.buttons-bottom button.btn {
+    overflow: visible;
+    cursor: pointer;
+    min-width: 125px;
+    height: 32px;
+    margin: 0px 2px;
+    padding: 0px 15px;
+    line-height: 32px;
+    font-size: 14px;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+    border-radius: 10px;
+}
+.buttons-bottom button.btn-primary {
+    color: #fff;
+    border-color: #0099d2 !important;
+    background: #0099d2 !important;
+}
+.buttons-bottom button.btn-100 {
+    width: 100%
+}

@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: myspring
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  # DataSource
+  datasource:
+    url: jdbc:mariadb://localhost:3308/luckydb
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: 1234
+  # Security Test User
+  security:
+    user:
+      name: test1
+      password: test1
+      role: ROLE_USER
+
+server:
+  port: 8100
