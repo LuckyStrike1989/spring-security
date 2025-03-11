@@ -12,7 +12,7 @@
   <h1 class="form_title">로그인</h1>
   <c:if test="${not empty error}">
     <div class="error-message">
-      로그인이 실패 했습니다.
+        ${error}
     </div>
   </c:if>
   <form method="POST" action="/system/account/loginProcess" autocomplete="off">
