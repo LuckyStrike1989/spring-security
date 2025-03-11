@@ -38,6 +38,14 @@
 .login_form form .buttons-bottom {
     margin-top: 20px;
 }
+.login_form .error-message {
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    font-size: 14px;
+    color: #6b1922;
+    background-color: #f7d5d7;
+    border-color: #eab6bb;
+}
 .buttons-bottom button.btn {
     overflow: visible;
     cursor: pointer;
@@ -58,4 +66,9 @@
 }
 .buttons-bottom button.btn-100 {
     width: 100%
+}
+.invalid-feedback {
+    width: 100%;
+    margin-top: 4px;
+    color: #dc3545;
 }
